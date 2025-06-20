@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Livewire;
 
 use Livewire\Component;
 
-class Contador extends Component
+class Test extends Component
 {
-    public $contador = 0;
+      public $contador = 0;
 
     public function incrementar()
     {
@@ -17,9 +17,8 @@ class Contador extends Component
     {
         $this->contador--;
     }
-
     public function render()
     {
-        return view('livewire.contador');
+        return view('livewire.test');
     }
 }
