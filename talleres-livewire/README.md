@@ -1,61 +1,198 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+   <a href="https://themeselection.com/item/flyonui-tailwind-css-starter-kit-free-laravel" target="_blank">
+      <img src="https://cdn.flyonui.com/fy-assets/logo/logo.png" alt="FlyonUI-logo" width="60px" height="auto">
+   </a>
 </p>
 
-## About Laravel
+<h1 align="center">
+   <a href="https://themeselection.com/item/flyonui-tailwind-css-starter-kit-free-laravel" target="_blank" align="center">
+      FlyonUI Tailwind CSS Laravel Starter Kit
+</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+   🚀 A powerful, clean, and minimal <strong>Laravel 12 Starter Kit</strong>, seamlessly integrated with <strong>FlyonUI</strong> — a free Tailwind CSS component library, designed to supercharge your next project!
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  <a href="https://github.com/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit" alt="license">
+  </a>
+  <a href="https://github.com/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit/releases/">
+    <img src="https://img.shields.io/github/release/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit.svg" alt="GitHub release">
+  </a>
+  <a href="https://github.com/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit/issues">
+    <img src="https://img.shields.io/github/issues/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit.svg" alt="GitHub issues">
+  </a>
+  <a href="https://github.com/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit/issues">
+    <img src="https://img.shields.io/github/issues-closed/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit.svg" alt="GitHub closed issues">
+  </a>
+  <a href="https://twitter.com/Theme_Selection" target="_blank">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Theme_Selection">
+  </a>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center">
+  <kbd>
+    <img src="https://github.com/user-attachments/assets/3d77a92c-8a5f-44dc-b390-1c6a253458b6" alt="Laravel 12 Bootstrap Starter Kit Preview">
+  </kbd>
+</p>
 
-## Learning Laravel
+## 🚀 Introduction
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The **FlyonUI Laravel Starter Kit** is a streamlined, **Tailwind CSS 4**-powered boilerplate designed to help developers build modern web applications effortlessly. Integrated with **FlyonUI**, a free **[Tailwind CSS component library](https://flyonui.com)**, this kit offers pre-built UI elements that enhance speed, maintainability, and scalability.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Whether you're creating an **admin panel, SaaS platform, or a dynamic web app**, this starter kit ensures a **clean**, **responsive**, and **efficient** development experience.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+🔗 **[Live Demo](https://flyonui.com/)**
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ⚙️ Installation Guide
 
-### Premium Partners
+Getting started is super simple! Follow the steps below:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+1. **Clone the Repository**
 
-## Contributing
+    ```bash
+    git clone https://github.com/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit.git
+    cd flyonui-tailwindcss-laravel-livewire-starter-kit
+    ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+2. **Install Composer Dependencies**
 
-## Code of Conduct
+    ```bash
+    composer install
+    ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+3. **Copy `.env` & Generate App Key**
 
-## Security Vulnerabilities
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+4. **Configure Database**
 
-## License
+    - Open `.env` file and update your DB credentials.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+5. **Run Migrations**
+
+    ```bash
+    php artisan migrate
+    ```
+
+6. **Install Node Modules**
+
+    ```bash
+    npm install
+    # OR
+    yarn
+    ```
+
+7. **Build Frontend Assets**
+
+    ```bash
+    npm run dev
+    # OR
+    yarn dev
+    ```
+
+8. **Serve the Application**
+    ```bash
+    php artisan serve
+    ```
+
+🚀 Open `http://127.0.0.1:8000` in your browser, and you're good to go!
+
+---
+
+## 🏗️ Available Features
+
+-   Laravel 12 (Latest Version)
+-   FlyonUI - Tailwind CSS component library
+-   Modular Code Structure (Easy to scale)
+-   Clean & Minimal UI
+
+---
+
+## 🧑‍💻 Available Commands
+
+**Development Mode (Hot Reload):**
+
+```bash
+npm run dev
+# OR
+yarn dev
+```
+
+**Production Build:**
+
+```bash
+npm run build
+# OR
+yarn build
+```
+
+---
+
+## 📚 Documentation
+
+For detailed documentation, check the **[Wiki](https://github.com/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit/wiki)** or refer to the **[Documentation](https://flyonui.com/framework-integrations/laravel/)** in this repo.
+
+---
+
+## 🖥️ Browser Support
+
+| Chrome | Firefox | Safari | Edge |
+| ------ | ------- | ------ | ---- |
+| ✅     | ✅      | ✅     | ✅   |
+
+---
+
+## 🦸 Contributing
+
+Contributions are welcome!  
+Follow these steps:
+
+1. Fork the repository
+2. Create your feature branch
+    ```bash
+    git checkout -b feature/amazing-feature
+    ```
+3. Commit your changes
+    ```bash
+    git commit -m 'Add some amazing feature'
+    ```
+4. Push to the branch
+    ```bash
+    git push origin feature/amazing-feature
+    ```
+5. Create a Pull Request
+
+---
+
+## 📅 Changelog
+
+Check out the [CHANGELOG](CHANGELOG.md) for detailed release notes.
+
+---
+
+## 🛠️ Support
+
+For free community support, open an issue on [GitHub Issues](https://github.com/themeselection/flyonui-tailwindcss-laravel-livewire-starter-kit/issues).
+
+For priority support or custom development: 📧 [Support](https://themeselection.com/support/)
+
+You can also join our Discord Server : [Join Now](https://discord.gg/kBHkY7DekX)
+
+---
+
+## 📄 License
+
+This project is open-sourced software licensed under the [MIT license](LICENSE).
+
+---
+
+## 🔥 Looking for More?
+
+Check out other [free starter kits](https://themeselection.com/item/category/free-starter-kits/) and [**admin templates**](https://themeselection.com/item/category/admin-templates/).
