@@ -3,7 +3,7 @@ import Alpine from 'alpinejs';
 import '../css/app.css';
 
 window.Alpine = Alpine;
-
+window.Alpine.disableMutationObserver = true;
 Alpine.start();
 
 // Dark mode persistence
@@ -20,15 +20,17 @@ document.addEventListener('alpine:init', () => {
 
 // Smooth transitions for Livewire
 document.addEventListener('livewire:load', function () {
-    // Add loading states
-    Livewire.hook('message.sent', () => {
-        document.body.classList.add('loading');
-    });
+    if (typeof Livewire !== 'undefined') {
+        Livewire.hook('message.sent', () => {
+            document.body.classList.add('loading');
+        });
 
-    Livewire.hook('message.processed', () => {
-        document.body.classList.remove('loading');
-    });
+        Livewire.hook('message.processed', () => {
+            document.body.classList.remove('loading');
+        });
+    }
 });
+
 
 // Auto-hide flash messages
 document.addEventListener('DOMContentLoaded', function() {

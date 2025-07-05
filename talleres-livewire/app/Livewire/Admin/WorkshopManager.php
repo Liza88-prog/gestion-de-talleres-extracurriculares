@@ -5,12 +5,14 @@ namespace App\Livewire\Admin;
 use App\Models\Workshop;
 use Livewire\Component;
 use Livewire\WithPagination;
+use Illuminate\Support\Facades\Log;
+
 
 class WorkshopManager extends Component
 {
     use WithPagination;
 
-    public $showModal = false;
+    public $showForm = false;
     public $editMode = false;
     public $workshopId;
     
@@ -34,15 +36,17 @@ class WorkshopManager extends Component
         'status' => 'required|in:active,inactive',
     ];
 
-    public function openModal()
-    {
-        $this->resetForm();
-        $this->showModal = true;
-    }
+ public function openForm()
+{
+    Log::info('openForm triggered');
+    $this->resetForm();
+    $this->showForm = true;
+}
 
-    public function closeModal()
+
+    public function closeForm()
     {
-        $this->showModal = false;
+        $this->showForm = false;
         $this->resetForm();
     }
 
@@ -84,7 +88,7 @@ class WorkshopManager extends Component
             session()->flash('message', 'Taller creado exitosamente.');
         }
 
-        $this->closeModal();
+        $this->closeForm();
     }
 
     public function edit($id)
@@ -100,7 +104,7 @@ class WorkshopManager extends Component
         $this->end_date = $workshop->end_date->format('Y-m-d');
         $this->location = $workshop->location;
         $this->status = $workshop->status;
-        $this->showModal = true;
+        $this->showForm = true;
     }
 
     public function delete($id)
@@ -110,9 +114,13 @@ class WorkshopManager extends Component
     }
 
     public function render()
-    {
-        return view('livewire.admin.workshop-manager', [
-            'workshops' => Workshop::withCount('students')->paginate(10)
-        ]);
-    }
+{
+    $workshops = Workshop::paginate(10); // o withCount('students') si usás la relación
+
+    return view('livewire.admin.workshop-manager', [
+        'workshops' => $workshops
+    ])->layout('layouts.app');
+}
+
+
 }

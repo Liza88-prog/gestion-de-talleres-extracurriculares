@@ -5,6 +5,7 @@ use App\Livewire\Admin\WorkshopManager;
 use App\Livewire\Admin\TaskManager;
 use App\Livewire\Student\Dashboard as StudentDashboard;
 use Illuminate\Support\Facades\Route;
+//inicinalmente
 
 Route::get('/', function () {
     if (auth()->check()) {
