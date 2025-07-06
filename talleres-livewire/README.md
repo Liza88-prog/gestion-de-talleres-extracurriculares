@@ -27,7 +27,7 @@ Configuración: CORS y Rate Limiting
 🛠️ Tecnologías Principales:
 Backend:
 
-Laravel 10 (Framework PHP)
+Laravel 11 (Framework PHP)
 Livewire 3 (Componentes reactivos)
 SQLite (Base de datos)
 Laravel Sanctum (Autenticación)
