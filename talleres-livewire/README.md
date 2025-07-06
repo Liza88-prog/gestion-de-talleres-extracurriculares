@@ -50,3 +50,7 @@ La documentación está completa y lista para usar como referencia técnica del 
 2.7M daily tokens remaining.
 Subscribe to Pro for 3x more usage
 
+Pasos para instalacion del proyecto:
+Composer install
+npm install
+php artisan serve - npm run dev
